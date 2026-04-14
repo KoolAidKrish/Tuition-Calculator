@@ -18,7 +18,7 @@ A desktop project for forecasting future engineering tuition, stress-testing sav
 - `Spending Analysis` tab for CSV upload, category dashboards, anomaly detection, and cut recommendations.
 - `Scenario History` tab for previously saved runs stored in SQLite.
 
-## Tech Stack
+## Libraries Used
 
 - Python 3.13
 - `tkinter`
@@ -60,5 +60,5 @@ Or double-click `Launch Tuition Planner.bat`.
 
 ## Reference Data
 
-- Tuition history comes from the local CSV already in this folder.
+- Tuition history comes from the local CSV already in this folder, based off of historical costs for an engineering degree in Alberta.
 - The conservative baseline savings profile is modeled after a basic TD-style savings setup and is intended as a starting assumption, not financial advice.
